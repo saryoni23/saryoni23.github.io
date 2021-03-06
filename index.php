@@ -21,12 +21,17 @@
 
 <body id="home">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top ">
         <div class="container">
-            <a class="navbar-brand" href="#home">Indra Saryoni</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <!-- Just an image -->
+            <div class="container">
+                <a class="navbar-brand" href="#home">
+                    <img src="img/logo.png" width="40" height="40">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
@@ -41,7 +46,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
-
                 </ul>
             </div>
         </div>
@@ -49,9 +53,9 @@
     <!-- akhir navbar -->
     <!-- awal Jumbotron -->
     <section class="jumbotron text-center">
-        <img src="img/1.jpg" alt="indra saryoni" width="200" class="rounded-circle img-thumbnail">
-        <h1 class=" display-4">Indra Saryoni Simanjuntak</h1>
-        <p class="lead">Web Developer</p>
+        <img src="img/1.jpg" alt="indra saryoni" width="200" class="rounded-circle img-thumbnail bg-dark">
+        <h1 class=" display-4 font-light">Indra Saryoni Simanjuntak</h1>
+        <h4 class="lead">Web Developer</h4>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#ffffff" fill-opacity="1" d="M0,160L48,149.3C96,139,192,117,288,133.3C384,149,480,203,576,197.3C672,192,768,128,864,106.7C960,85,1056,107,1152,122.7C1248,139,1344,149,1392,154.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
         </svg>
@@ -77,7 +81,7 @@
             </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#beedff" fill-opacity="1" d="M0,160L48,149.3C96,139,192,117,288,133.3C384,149,480,203,576,197.3C672,192,768,128,864,106.7C960,85,1056,107,1152,122.7C1248,139,1344,149,1392,154.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            <path fill="#646464e5" fill-opacity="1" d="M0,160L48,149.3C96,139,192,117,288,133.3C384,149,480,203,576,197.3C672,192,768,128,864,106.7C960,85,1056,107,1152,122.7C1248,139,1344,149,1392,154.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
         </svg>
     </section>
     <!-- Akhir About -->
@@ -171,13 +175,13 @@
         </div>
     </section>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#0d6efd" fill-opacity="1" d="M0,160L48,149.3C96,139,192,117,288,133.3C384,149,480,203,576,197.3C672,192,768,128,864,106.7C960,85,1056,107,1152,122.7C1248,139,1344,149,1392,154.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        <path fill="#212529" fill-opacity="1" d="M0,160L48,149.3C96,139,192,117,288,133.3C384,149,480,203,576,197.3C672,192,768,128,864,106.7C960,85,1056,107,1152,122.7C1248,139,1344,149,1392,154.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
     </svg>
     <!-- Akhir Contact -->
 
     <!-- Footer -->
-    <footer class="bg-primary text-white text-center pb-5">
-        <p>Create with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://github.com/saryoni23" class="text-white fw-bold">Indra Saryoni Simanjuntak</a></p>
+    <footer class="bg-dark text-white text-center pb-5">
+        <h6>Create with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://github.com/saryoni23" class="text-white fw-bold">Indra Saryoni Simanjuntak</a></h6>
     </footer>
     <!-- Akhir Footer -->
 
