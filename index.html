@@ -202,9 +202,9 @@
     <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbwfD5jZ6YqvlNZ8Q8aDOYTCb7VZLrCLPsBWHfnuM-GC7oLQZ5VifLAfmEfhiuQg3KES/exec'
   const form = document.forms['fortofolio-contact-form']
-  const btnKirim = documen.querySelector('.btn-kirim');
-  const btnLoading = documen.querySelector('.btn-loading');
-  const myAlert = documen.querySelector('.my-alert');
+  const btnKirim = document.querySelector('.btn-kirim');
+  const btnLoading = document.querySelector('.btn-loading');
+  const myAlert = document.querySelector('.my-alert');
   
   form.addEventListener('submit', e => {
     e.preventDefault()
